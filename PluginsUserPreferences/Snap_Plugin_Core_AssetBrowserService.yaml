@@ -1,0 +1,23 @@
+ExternalSources:
+  type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
+  value:
+    - 3aa91e07-71ee-4857-9863-fff24a21b84d: "C:/Users/David/Documents/LA Hacks 2025/lens_studio_test3/Assets/images/return.png"
+    - 3ba3c000-d2eb-4630-8ed4-f057f3a59afd: "C:/Users/David/Documents/LA Hacks 2025/lens_studio_test3/Assets/Intro UI.ts"
+    - 3bb6e751-4815-4a94-bec8-1f94bab2dfa1: "D:/LA Hacks 2025/ChestMarker.ts"
+    - 426d0430-83c4-4bdc-9813-ef76bd674c40: "C:/Users/David/Documents/LA Hacks 2025/lens_studio_test3/Assets/images/settings.png"
+    - 4673909e-d3f4-47bd-93ed-ac93c4ab0b4f: "C:/Users/jacky/Downloads/hand3/Hand_v3_L1.123c7064efdd-ce01-4412-9848-29d36a929a27/11537_Hand_v3.obj"
+    - 4d382b48-1796-4b4a-a022-247e5dc259fa: "C:/Users/David/Downloads/pulse.png"
+    - 71a26998-cae3-42fc-a9b1-081c7726e7a6: "C:/Users/jacky/Downloads/hand3/Hand_v3_L1.123c7064efdd-ce01-4412-9848-29d36a929a27/Blank.mtl"
+    - 7222e5f7-a647-43a8-9397-584f75ef6be5: "C:/Users/David/Documents/LA Hacks 2025/lens_studio_test3/Assets/Instruction1.ts"
+    - 7f4e1360-237b-45c0-b967-71e1b0cd5ba6: "C:/Users/David/Documents/LA Hacks 2025/lens_studio_test3/Assets/images/return 2.png"
+    - 7fe93a15-5af6-43b8-aa0a-c40993e23562: "C:/Users/David/Documents/LA Hacks 2025/lens_studio_test3/Assets/cameraVerticalFollow.ts"
+    - 8efd7078-5759-4b00-9974-85fa827814ca: "C:/Users/David/Downloads/check.png"
+    - 9c4041f7-a5dc-4398-b44f-58feb20cc367: "C:/Users/jacky/Downloads/hand2/Hand_v2_L1.123c375ab4c6-0874-4531-aaf7-b165f7450ed2/11538_Hand_v2.obj"
+    - a3cc2ef2-8815-4b9d-82d1-f0689a92b1f3: "C:/Users/David/Downloads/images.png"
+    - ad43edbc-a289-4a80-bd14-f9c217e629a7: "C:/Users/jacky/Downloads/hand2/Hand_v2_L1.123c375ab4c6-0874-4531-aaf7-b165f7450ed2/Blank.mtl"
+    - bece196d-a87b-4730-883e-12546a94b12f: "C:/Users/jacky/Downloads/tick.mp3"
+    - c430452e-5de7-4306-bc7f-b7c5ac4d9177: "C:/Users/David/Downloads/blank.png"
+    - e06fdc82-e71a-4fbf-b980-ec192563987b: "C:/Users/David/Documents/LA Hacks 2025/lens_studio_test3/Assets/images/return1.png"
+    - e35da70f-ad84-49a9-b14e-9047b05caefa: "C:/Users/David/Documents/LA Hacks 2025/lens_studio_test3/Assets/rhythm.ts"
+    - f5c10405-c190-4d20-8a8a-bb3dc3b8e98b: "C:/Users/David/Documents/LA Hacks 2025/lens_studio_test3/Assets/Instruction2.ts"
+  options: 4

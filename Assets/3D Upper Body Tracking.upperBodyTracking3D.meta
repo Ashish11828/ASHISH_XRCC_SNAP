@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/913b5a4c-c160-4970-9642-82a949bf5683>
+  ImportedAssetIds:
+    UpperBodyTracking3DAsset: !<reference> 19f2f0c4-fec6-4f8a-9d10-3ad52b3829b8
+  ImporterName: UpperBodyTracking3DAssetImporter
+  PrimaryAsset: !<reference> 19f2f0c4-fec6-4f8a-9d10-3ad52b3829b8
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

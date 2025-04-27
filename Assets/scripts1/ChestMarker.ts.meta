@@ -1,0 +1,57 @@
+- !<AssetImportMetadata/3bb6e751-4815-4a94-bec8-1f94bab2dfa1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 176c2f19-95be-45dd-a131-e12ab8d37edd
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 176c2f19-95be-45dd-a131-e12ab8d37edd
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 42753739-3771-4936-8315-fbf987476050
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/42753739-3771-4936-8315-fbf987476050>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0a025535-a196-468e-8ba1-f1a22ee3a43e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    maxDeltaDistance: false
+    minDeltaDistance: false
+    scaleFactor: false
+    visibilityTimeout: false
+    warningBox: false
+    warningText: false
+    window: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - scaleFactor: !<float> 0.000000
+      minDeltaDistance: !<float> 10.000000
+      maxDeltaDistance: !<float> 50.000000
+      warningBox: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      warningText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      visibilityTimeout: !<float> 2.000000
+      window: !<float> 2.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input float scaleFactor
+    - // @input float minDeltaDistance = 4
+    - // @input float maxDeltaDistance = 6
+    - // @input SceneObject warningBox
+    - // @input Component.Text warningText
+    - // @input float visibilityTimeout = 2
+    - // @input float window = 2

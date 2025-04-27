@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/7fe93a15-5af6-43b8-aa0a-c40993e23562>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a2966edb-fc2c-46aa-bb08-513628876d85
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a2966edb-fc2c-46aa-bb08-513628876d85
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7eb2f8e4-276f-47c5-b013-4de29faecd9b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7eb2f8e4-276f-47c5-b013-4de29faecd9b>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3770a5fe-aa05-4c20-b9c4-ddda98acd77c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    camera: false
+    currentScreenText: false
+    duration: false
+    rotateText: false
+    screen1: false
+    screen2: false
+    screen3: false
+    screen4: false
+    screen5: false
+    screen6: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      screen1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      screen2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      screen3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      screen4: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      currentScreenText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      rotateText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      duration: 0.500000
+      screen5: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      screen6: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Camera camera
+    - // @input SceneObject screen1
+    - // @input SceneObject screen2
+    - // @input SceneObject screen3
+    - // @input SceneObject screen4
+    - // @input SceneObject screen5
+    - // @input SceneObject screen6
+    - // @input Component.Text currentScreenText
+    - // @input Component.Text rotateText
+    - // @input float duration = 0.5

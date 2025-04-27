@@ -1,0 +1,8 @@
+# Lens Studio specific
+Cache/
+Build/
+*.lsproj.user
+
+# General Node/OS junk
+.DS_Store
+Thumbs.db

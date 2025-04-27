@@ -1,0 +1,81 @@
+- !<AssetImportMetadata/e35da70f-ad84-49a9-b14e-9047b05caefa>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 148b68c3-32ab-419a-919d-304f5a41f6ee
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 148b68c3-32ab-419a-919d-304f5a41f6ee
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f9d039bd-57be-4048-b3f9-34016b0310b5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f9d039bd-57be-4048-b3f9-34016b0310b5>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e7d1d712-526f-43cf-98a0-bb707735e8c9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bodyIndicator: false
+    camera: false
+    cprTarget: false
+    currentScreen: false
+    line: false
+    marker: false
+    nextButton: false
+    reminderCheckButton: false
+    reminderText: false
+    rotateText: false
+    shoulderLeft: false
+    shoulderRight: false
+    shoulderTargetLeft: false
+    shoulderTargetRight: false
+    smoothingFactor: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - bodyIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cprTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      smoothingFactor: 0.100000
+      shoulderTargetLeft: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shoulderTargetRight: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shoulderLeft: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shoulderRight: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      marker: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      line: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      reminderText: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      reminderCheckButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      currentScreen: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      nextButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rotateText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Camera camera
+    - // @input SceneObject bodyIndicator
+    - // @input SceneObject cprTarget
+    - // @input SceneObject shoulderTargetLeft
+    - // @input SceneObject shoulderTargetRight
+    - // @input SceneObject shoulderLeft
+    - // @input SceneObject shoulderRight
+    - // @input SceneObject marker
+    - // @input SceneObject line
+    - // @input SceneObject reminderText
+    - // @input SceneObject reminderCheckButton
+    - // @input SceneObject nextButton
+    - // @input float smoothingFactor = 0.05
+    - // @input Component.Text currentScreen
+    - // @input Component.Text rotateText

@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/f5c10405-c190-4d20-8a8a-bb3dc3b8e98b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 77d2e1fc-8991-4360-89ca-f5fe8478a8b3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 77d2e1fc-8991-4360-89ca-f5fe8478a8b3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7e6ae3bc-01bc-471f-84cc-d60311f4f56f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7e6ae3bc-01bc-471f-84cc-d60311f4f56f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7e694e0f-969f-44d4-ac8a-026f65bc39e1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    animationReturnButton: false
+    camera: false
+    locateAEDButton: false
+    rotateText: false
+    screenLabel: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - animationReturnButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      screenLabel: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      rotateText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      locateAEDButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject animationReturnButton
+    - // @input SceneObject locateAEDButton
+    - // @input Component.Camera camera
+    - // @input Component.Text screenLabel
+    - // @input Component.Text rotateText

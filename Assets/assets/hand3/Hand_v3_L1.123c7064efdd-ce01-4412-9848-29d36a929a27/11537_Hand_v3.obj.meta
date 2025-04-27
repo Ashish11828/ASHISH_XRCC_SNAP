@@ -1,0 +1,94 @@
+- !<AssetImportMetadata/4673909e-d3f4-47bd-93ed-ac93c4ab0b4f>
+  ImportedAssetIds:
+    7a0dd5cd69df73fa: !<reference> fc4df49b-b9dd-429c-a0c0-c330cc952a91
+    80116927c52bd375: !<reference> 54de9ea7-9113-4f07-a4bb-bb5e5c039a88
+    Meshes/hand: !<reference> 3ea58c8f-734d-4a7a-9de9-4710bb598960
+    Scene: !<reference> 268f7bc5-a0e7-42b3-8d03-f62df3a9115e
+    d11eaea3675db68c: !<reference> a5fcf77a-2c7f-4961-92c2-6c424635fc7a
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> 268f7bc5-a0e7-42b3-8d03-f62df3a9115e
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 051b6d16-1229-4179-942a-993acebb3852
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/051b6d16-1229-4179-942a-993acebb3852>
+  SourceRemaps:
+    - 268f7bc5-a0e7-42b3-8d03-f62df3a9115e: bc305194-36d0-426a-8be8-9c90ad35d77f
+    - 54de9ea7-9113-4f07-a4bb-bb5e5c039a88: d3ddb2df-a1c3-4fc5-8607-8b9077b0ccea
+    - a5fcf77a-2c7f-4961-92c2-6c424635fc7a: 81c0d21d-ecf8-4980-9a21-0b963e7ac94b
+    - fc4df49b-b9dd-429c-a0c0-c330cc952a91: 49c38668-6996-45fc-bf2e-e01586e6f153
+  SourceState: !<own> bc305194-36d0-426a-8be8-9c90ad35d77f
+- !<SceneObject/49c38668-6996-45fc-bf2e-e01586e6f153>
+  PrefabRemaps:
+    []
+  Name: 11537_Hand_v3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d3ddb2df-a1c3-4fc5-8607-8b9077b0ccea
+  Components:
+    []
+- !<RenderMeshVisual/81c0d21d-ecf8-4980-9a21-0b963e7ac94b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 3ea58c8f-734d-4a7a-9de9-4710bb598960
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/bc305194-36d0-426a-8be8-9c90ad35d77f>
+  PackagePath: ""
+  objects:
+    - !<own> 49c38668-6996-45fc-bf2e-e01586e6f153
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/d3ddb2df-a1c3-4fc5-8607-8b9077b0ccea>
+  PrefabRemaps:
+    []
+  Name: hand
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 81c0d21d-ecf8-4980-9a21-0b963e7ac94b
